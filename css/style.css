@@ -33,6 +33,7 @@ header .nav-cont{
 }
 .logo {
     width: 130px;
+    height: auto;
 }
 .nav-cont ul{
   display: flex;
