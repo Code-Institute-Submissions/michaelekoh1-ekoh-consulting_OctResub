@@ -449,8 +449,10 @@ footer div{
     footer{
     padding: 20px;
     }
+
     footer div{
         text-align: center;
         padding: 5px;
         width: 100%;
     }
+}
