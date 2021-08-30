@@ -160,7 +160,7 @@ a {
 }
 #about h1{
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 30px;
 }
 .grid{
     display: grid;
@@ -242,6 +242,7 @@ a {
 #contact {
     font-family: 'Open Sans', sans-serif;
     background-color: #000;
+
 }
 #contact p{
     color: #fff;
