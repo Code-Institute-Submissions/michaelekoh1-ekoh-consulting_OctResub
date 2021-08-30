@@ -120,7 +120,7 @@ a {
   font-weight: normal;
 }
 
-.main-content h3 {
+.main-content p {
   position: absolute;
   left: 70px;
   top: 60%;
@@ -394,7 +394,7 @@ footer div{
         background-position: center center;
     }
 
-    .main-content h1, .main-content h2, .main-content h3, .main-content .social-top{
+    .main-content h1, .main-content h2, .main-content p, .main-content .social-top{
         position: absolute;
         left: 10px;
     }
