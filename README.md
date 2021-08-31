@@ -71,15 +71,27 @@ In this section, we will see different parts of the project with a bit of descri
 
 ### Aboutpage Features
 
-The about page give a detailed explaination about the organization and their vision & values.
+- The about page give a detailed explaination about the organization and their vision & values.
 
 ![Ekoh Consulting About Page](screenshots/About-page.png)
 
 ### Servicepage Features
 
+- The service page will allow the user to go through all the servies the company is providing to its clients.
 
+- For detailed understand about each of the services, the user can click on the learn more link to have a detailed explaination about each of the services.
 
 ![Ekoh Consulting Service Page](screenshots/service-page.png)
+
+### Contactpage Features
+
+- This page will allow the user to contact us or stay intouch with the latest updates by navigating to the social media links.
+
+- In the get in touch option, the user has to fill in his or her information and leave a message in case they have some questions to be addressed.
+
+- Send Message is the visibale button at the end of the form that the user has to click in oerder to sent their message.
+
+![Ekoh Consulting COntact Page](screenshots/contact-page.png)
 
 ### Fonts
 
@@ -89,19 +101,42 @@ All fonts for the site are from [Google Fonts](https://fonts.google.com/).
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- [Gitpod](https://www.gitpod.io/)
-- [Font Awesome](https://fontawesome.com/) 
-- [Google Fonts](https://fonts.google.com/) 
+- HTML5 - the pages of the website were designed using HTML.
+- CSS3 -  the pages of the website were styled using CSS.
+- [Gitpod](https://www.gitpod.io/) - the website was developed using Gitpod as the development environment.
+- [Font Awesome](https://fontawesome.com/)- Font Awesome icons were used for the social media links on the contact page and in the services page.
+- [Google Fonts](https://fonts.google.com/) Google Fonts were used throughout the project.
 - [Favicon Generator](https://www.favicongenerator.com/)
-- Photoshop(Adobe)
-
-
+- Favicon Generator was used to create and size the favicon for the site, using the logo created above.
+- Photoshop(Adobe)- The logo was designed using Adobe Photoshop software.
 
 # Testing
-## Validation:
+
+## Validator Testing
+
 ### HTML
+
 - The HTML for the site's four pages was passed through the W3C Markup Validation Service, and no errors or warnings were found.
+
 ### CSS
+
 - The site's CSS was passed through the W3C CSS Validation Service, and no errors were found.
+
+### Automated Testing
+
+- Each page of the site was evaluated using Lighthouse to assess them on four metrics; Performance, Accessibility, Best Practices & Search Engine Optimization (SEO).
+
+# Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+- In the GitHub repository, navigate to the Settings tab
+
+- From the source section drop-down menu, select the Master Branch
+
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here: (https://michaelekoh1.github.io/ekoh-consulting/index.html)
+
+# Credits
+
