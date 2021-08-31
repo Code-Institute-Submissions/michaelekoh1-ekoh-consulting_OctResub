@@ -4,13 +4,13 @@
 
 ## Project Goals
 
-Ekoh Consulting is a leading global management consultancy in the public, private and social sectors with wide experience of providing organisational development solutions and adding value to organisations across the globe.
+Ekoh Consulting is a leading global management consultancy in the public, private and social sectors with wide experience in providing organisational development solutions and adding value to organisations across the globe.
 
 We are a trusted advisor to many multinational organizations worldwide.
 
 User Goals:
 
-- Organisations can find information on global management services that we provide.
+- Organisations can find information on the global management services that we provide.
 - Helping clients achieve immediate impact on their businesses.
 
 Site Owner Goal:
@@ -149,4 +149,4 @@ The live link can be found here: (https://michaelekoh1.github.io/ekoh-consulting
 
 # Acknowledgement
 
-I would like to take this opprotunity to thank my mentor Jack Wachira for his great guidance in the accomplishment of this project and the whole learning experience.
+I would like to take this opportunity to thank my mentor Jack Wachira for his great guidance in the accomplishment of this project and the whole learning experience.
