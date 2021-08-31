@@ -140,3 +140,13 @@ The live link can be found here: (https://michaelekoh1.github.io/ekoh-consulting
 
 # Credits
 
+## Content
+
+- Hero image was taken from pixabay website which was an Open Source site for personal use.
+
+- Various instucttions like understanding the basics of a good website and simplicity of a webpage were taken from You Tube.
+
+
+# Acknowledgement
+
+I would like to take this opprotunity to thank my mentor Jack Wachira for his great guidance in the accomplishment of this project and the whole learning experience.
