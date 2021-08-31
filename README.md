@@ -43,16 +43,44 @@ Based on the above User Stories, the following wireframes were mocked up.
 
 The site's colour scheme was built around the hero image.
 
-
-
 ![Ekoh Consulting Colour Palette](screenshots/colour-palette.png)
 
+## Features
+
+In this section, we will see different parts of the project with a bit of description.
+
+### Existing Features
+
+- Navigaton Bar
+
+  - The navigation bar is present on all the pages of the website.
+
+  - The navigation bar is fixed on the top, however it has a smooth scroll.
+  
+  - On the mobile devices, the  navigation bar remains the same with the logo over it.
+
+![Ekoh Consulting Navigation Bar](screenshots/nav-bar.png)
+
+### Homepage Features
+
+- The home page or the index page includes a photograph which covers the entire page with text and navigation bar overlaying it.
+
+- The text on the home page gives a clear message to the user on what the organization is all about.
+
+![Ekoh Consulting Landing Page](screenshots/index.png)
+
+### Aboutpage Features
+
+
+
 ### Fonts
+
 All fonts for the site are from [Google Fonts](https://fonts.google.com/).
 - [Montserrat](https://fonts.google.com/specimen/Montserrat) is used for main headings and titles.
 - [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=Steve+Matteson#standard-styles) is used for sub-headings and for the body text.
 
-# Technologies Used
+## Technologies Used
+
 - HTML5
 - CSS3
 - [Gitpod](https://www.gitpod.io/)
