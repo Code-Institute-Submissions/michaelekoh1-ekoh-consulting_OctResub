@@ -71,7 +71,15 @@ In this section, we will see different parts of the project with a bit of descri
 
 ### Aboutpage Features
 
+The about page give a detailed explaination about the organization and their vision & values.
 
+![Ekoh Consulting About Page](screenshots/About-page.png)
+
+### Servicepage Features
+
+
+
+![Ekoh Consulting Service Page](screenshots/service-page.png)
 
 ### Fonts
 
