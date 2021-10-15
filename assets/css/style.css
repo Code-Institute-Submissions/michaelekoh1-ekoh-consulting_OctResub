@@ -1,0 +1,464 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    height: auto;
+    padding: 15px 5px;
+    z-index: 1;
+}
+header .logo-cont{
+    margin-left: 70px;
+    width: 45%;
+    display: inline-block;
+    vertical-align:middle;
+}
+header .nav-cont{
+    width: 54%;
+    display: inline-block;
+    margin-left: -70px;
+}
+.logo {
+    width: 130px;
+}
+.nav-cont ul{
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  margin-right: 5%;
+}
+li a {
+  margin: 15px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+li a:hover {
+    opacity: 0.8;
+    color: #1565C0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+#scroll-down-link{
+    border: solid 1px #fff;
+    border-radius: 8px;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+#scroll-down-link:hover{
+    border: solid 1px #fff;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #1565C0;
+    color: #000;
+}
+#about, #services, #contact{
+    padding: 105px 70px;
+    min-height: 100vh;
+    height: auto;
+}
+.montserrat-paragraph-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: left;
+    margin: 20px auto;
+}
+.section-heading{
+    color: #1565C0;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.text-bolder{
+    font-weight: bolder;
+}
+
+.banner-area {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-content h1 {
+    position: absolute;
+    left: 70px;
+    top: 40%;
+    text-align: left;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 45px;
+}
+
+.main-content h2 {
+  position: absolute;
+  left: 70px;
+  top: 35%;
+  text-align: left;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+
+.main-content h3 {
+  position: absolute;
+  left: 70px;
+  top: 60%;
+  text-align: left;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+.main-content .top-follow-us{
+    position: absolute;
+    left: 70px;
+    top: 90%;
+    text-align: left;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+
+    display: grid;
+    grid-column-gap: 0;
+    grid-template-columns: auto auto;
+    align-content: space-evenly;
+}
+.links{
+    width: 40%;
+}
+.links, .scroll-down-section{
+    display: inline-grid;
+}
+.top-follow-us .scroll-down-section a{
+    margin: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-right{
+    width: 100%;
+    text-align: right;
+}
+#about h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.grid{
+    display: grid;
+    grid-column-gap: 0;
+    grid-template-columns: 50% 49%;
+    align-content: space-evenly;
+}
+.grid-item{
+    display: inline-grid;
+}
+.about-sub-head{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: normal;
+    vertical-align:middle;
+}
+.height250{
+    height: 250px;
+}
+.vision-text, .values-text{
+    margin-top: 15px;
+    padding: 10px  20px 10px 70px;
+    border-left: 1px solid #aaa;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/** Services Section */
+
+#services{
+    background-color: #ddd;
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    min-height: 80vh;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.service-box-container{
+    display: grid;
+    grid-column-gap: 5px;
+    grid-template-columns: auto auto auto auto;
+}
+.service-box{
+    display: inline-grid;
+    background-color: #fff;
+    box-shadow: 2px 3px 5px #222;
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 15px 10px;
+}
+.service-box .icon{
+    width: 40px;
+    height: 40px;
+}
+.service-sub-heading{
+    font-weight: bold;
+    font-size: 15px;
+    margin: 15px auto;
+}
+.service-sub-text{
+    font-size: 15px;
+    line-height: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.service-sub-link {
+    margin: 10px auto;
+    text-align: right;
+    padding: 5px;
+    font-size: 15px;
+}
+.service-sub-link a{
+    text-decoration: none;
+    color: #000;
+}
+
+/********************** Contact Section **************************/
+#contact {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000;
+}
+#contact p{
+    color: #fff;
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+.form-group{
+    margin: 10px auto;
+    width: 100%;
+}
+
+/**
+ * Make a form section takeup half the page width on big screens
+ */
+.half-width-div{
+    display: inline-block;
+    width: 49.5%;
+}
+.form-group label{
+    display: block;
+    color: #fff;
+}
+.form-group input{
+    height: 38px;
+}
+.form-group input{
+    border: 0;
+    width: 100%;
+}
+.form-group textarea{
+    width: 99.5%;
+}
+.form-group button{
+    background-color: #1565C0;
+    color: #fff;
+    padding: 7px 13px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.get-in-touch{
+    font-size: 25px;
+}
+
+.more-ways-to-connect{
+    margin: 10px auto;
+    width: 600px;
+    max-width: 100%;
+    display: grid;
+    grid-column-gap: 0;
+    grid-template-columns: auto auto;
+    align-content: space-evenly;
+}
+.more-ways-to-connect div{
+    display: inline-grid;
+    font-weight: bolder;
+    color: #fff;
+    padding: 10px;
+}
+.more-ways-to-connect .left{
+    background-color:#1565C0;
+    font-size: 25px;
+    align-items:center
+}
+.more-ways-to-connect .right{
+    background-color:#fff;
+}
+.more-ways-to-connect .right p{
+    color: #000 !important;
+}
+
+.more-ways-to-connect .right p a{
+    color: #000 !important;
+}
+.follow-us{
+    font-size: 18px;
+    font-weight: bold;
+}
+.social-icon{
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    font-size: 35px;
+    margin: 5px;
+}
+/*********************** End of Contact Section *************************/
+
+/*********************** Footer ***********************/
+footer{
+    border-top: #fff solid 1px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 70px;
+    display: grid;
+    grid-column-gap: 0;
+    grid-template-columns: auto auto;
+    align-content: space-evenly;
+}
+footer div{
+    display: inline-grid;
+}
+
+/*********************** Media Queries: Mobile ***********************/
+@media only screen and (max-width: 768px) {
+    .logo {
+      width: 100px;
+      display: block;
+      margin: 0 auto;
+    }
+    header {
+        position: fixed;
+        width: 100%;
+        display: block;
+        height: auto;
+        z-index: 1;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 0;
+    }
+    header .logo-cont{
+        width: 100%;
+        display: block;
+        margin-left: 0;
+    }
+    header .nav-cont{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        padding: 2px;
+        text-align: center;
+        margin-left: 0;
+    }
+    header ul{
+        display: block;
+        margin: 0 auto;
+        border-top: 1px solid #eee;
+        padding: 2px;
+        text-align: center;
+    }
+    header ul li{
+        display: inline-block;
+        font-size: 12px;
+        margin: 2px;
+        width: 24%;
+        text-align: center;
+    }
+    li a {
+      margin: 0;
+    }
+    .banner-area {
+        height: 100vh;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .main-content h1, .main-content h2, .main-content h3, .main-content .social-top{
+        position: absolute;
+        left: 10px;
+    }
+    .main-content h1 {
+        font-size: 37px;
+    }
+
+    #about, #services, #contact{
+        padding: 70px 30px;
+    }
+    #about div h1{
+        font-size: 30px;
+    }
+    .montserrat-paragraph-text{
+        font-size: 20px;
+        line-height: 25px;
+        margin: 10px auto;
+    }
+    .section-heading{
+        font-size: 20px;
+    }
+
+    /**
+     * Convert all grid or inline-block elements to block elements, so they
+     * can take up the whole width of the page
+     */
+    .service-box-container, .grid, .half-width-div, footer{
+        display: block;
+        width: 100%;
+    }
+    .grid-item{
+        display: block;
+        margin: 20px auto;
+    }
+    .service-box{
+        display: block;
+        margin: 5px auto;
+    }
+    .more-ways-to-connect .left{
+        font-size: 18px;
+    }
+    .follow-us{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .social-icon{
+        width: 25px;
+        height: 25px;
+        padding: 2px;
+        font-size: 20px;
+        margin: 5px;
+    }
+    footer{
+    padding: 20px;
+    }
+    footer div{
+        text-align: center;
+        padding: 5px;
+        width: 100%;
+    }
+
+  }
