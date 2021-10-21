@@ -110,17 +110,46 @@ All fonts for the site are from [Google Fonts](https://fonts.google.com/).
 - Favicon Generator was used to create and size the favicon for the site, using the logo created above.
 - Photoshop(Adobe)- The logo was designed using Adobe Photoshop software.
 
+
+
+# Validation 
+- [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
+
+
+   **W3 HTML Validator Complete**
+   ![W3 Validator Complete](screenshots/html checker.png)
+
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+   **CSS Validator Complete**
+   ![CSS Validator](screenshots/w3c css.png)
+
+- [jshint.com](https://jshint.com/)
+
+
 # Testing
 
-## Validator Testing
+- ### **Performace Testing**
 
-### HTML
+[Performance Testing](assets/img/Testing/Lighthouse.png)
 
-- The HTML for the site's four pages was passed through the W3C Markup Validation Service, and no errors or warnings were found.
+- ### **Device Testing**
 
-### CSS
+For all my media queries, I used tutor support, and CSS **[A Complete Guide to CSS Media Queries](https://css-tricks.com/a-complete-guide-to-css-media-queries/)** in getting my site responsive for all devices
 
-- The site's CSS was passed through the W3C CSS Validation Service, and no errors were found.
+The website was tested on the following devices:
+
+**Browser**
+   - Dell XPS 
+
+**Mobile**
+   -iPhone 8 / 8 Plus / X / 12
+
+**Tablet**
+   -iPad
+   -iPad Pro
+
+- Dev Tools was used to test the responsiveness on other devices
 
 ### Automated Testing
 
