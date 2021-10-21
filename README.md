@@ -127,10 +127,6 @@ All fonts for the site are from [Google Fonts](https://fonts.google.com/).
 
 # Testing
 
-- ### **Performace Testing**
-
-[Performance Testing](assets/img/Testing/Lighthouse.png)
-
 - ### **Device Testing**
 
 For all my media queries, I used tutor support, and CSS **[A Complete Guide to CSS Media Queries](https://css-tricks.com/a-complete-guide-to-css-media-queries/)** in getting my site responsive for all devices
@@ -145,7 +141,6 @@ The website was tested on the following devices:
 
 **Tablet**
    -iPad
-   -iPad Pro
 
 - Dev Tools was used to test the responsiveness on other devices
 
