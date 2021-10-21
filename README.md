@@ -117,14 +117,12 @@ All fonts for the site are from [Google Fonts](https://fonts.google.com/).
 
 
    **W3 HTML Validator Complete**
-   ![W3 Validator Complete](screenshots/html checker.png)
+   ![W3 Validator Complete](screenshots/html-check.png)
 
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
    **CSS Validator Complete**
-   ![CSS Validator](screenshots/w3c css.png)
-
-- [jshint.com](https://jshint.com/)
+   ![CSS Validator](screenshots/css-check.png)
 
 
 # Testing
@@ -140,7 +138,7 @@ For all my media queries, I used tutor support, and CSS **[A Complete Guide to C
 The website was tested on the following devices:
 
 **Browser**
-   - Dell XPS 
+   - Apple Macbook Air
 
 **Mobile**
    -iPhone 8 / 8 Plus / X / 12
